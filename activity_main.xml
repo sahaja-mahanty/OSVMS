@@ -1,0 +1,134 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#696969"
+    tools:context=".MainActivity" >
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="sans-serif"
+            android:text="LOGIN"
+            android:textSize="70sp"
+            android:id="@+id/textView"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="TO"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_marginTop="72dp"
+            android:layout_alignTop="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="YOUR ACCOUNT"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/txtid"
+            android:maxLines="1"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_contacts_white_24dp"
+            android:hint="Enter ID"
+            android:textColorHint="#cccccc"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:drawablePadding="10dp"
+            android:maxLines="1"
+            android:hint="Enter User Password"
+            android:drawableLeft="@drawable/ic_vpn_key_white_24dp"
+            android:textSize="15sp"
+            android:textColorHint="#cccccc"
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtpass"
+            android:layout_below="@+id/txtid"
+            android:layout_alignLeft="@+id/txtid"
+            android:layout_alignStart="@+id/txtid"
+            android:layout_alignRight="@+id/txtid"
+            android:layout_alignEnd="@+id/txtid" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_btn_drawable"
+            android:textColor="@android:color/black"
+            android:text="SIGN IN"
+            android:textSize="20sp"
+            android:id="@+id/btnsignin"
+            android:layout_below="@+id/txtpass"
+            android:layout_marginTop="6dp"
+            android:layout_alignLeft="@+id/txtpass"
+            android:layout_alignStart="@+id/txtpass"
+            android:layout_alignRight="@+id/txtpass"
+            android:layout_alignEnd="@+id/txtpass" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="USER SIGN_UP"
+            android:textSize="20sp"
+            android:background="@drawable/blue_btn_drawable"
+            android:textColor="@android:color/black"
+            android:id="@+id/btnureg"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/btnsignin"
+            android:layout_alignStart="@+id/btnsignin"
+            android:layout_alignEnd="@+id/btnsignin" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="VOLUNTEER SIGN_UP"
+            android:textSize="20sp"
+            android:background="@drawable/blue_btn_drawable"
+            android:textColor="@android:color/black"
+            android:id="@+id/btnvreg"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/btnureg"
+            android:layout_alignStart="@+id/btnureg"
+            android:layout_alignEnd="@+id/btnureg" />
+
+
+
+    </RelativeLayout>
+
+
+    
+    
